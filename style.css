@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: figtree;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius:10px;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  color:black;
+  box-shadow: 8px 8px 2px 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.container {
+  background-color: transparent;
+  width: 250px;
+  height: 370px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.learning {
+  background-color: hsl(47, 88%, 63%);
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 8px;
+  font-size: 13px;
+  text-align: center;
+  width: 60px;
+}
+
+.date {
+  font-size: 13px;
+  margin-top: -10px ;
+}
+
+.h1 {
+  font-size: 18px;
+  margin-block: -10px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.h1:hover {
+  color: hsl(47, 88%, 63% );
+  cursor:pointer;
+}
+
+.paragrah {
+  font-size: 12px;
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+.avatar-pic {
+  width: 25px;
+  height: 25px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+
+}
